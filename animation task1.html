@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+           
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            background-image: linear-gradient(to left violet,indigo,blue,green,yellow,orange,red);
+            animation-name: harsha;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-duration: 0.05ms;
+            position: relative;
+            background-color: green;
+        }
+        @keyframes harsha{
+            from{ rotate:0deg;}
+            to{rotate: 360deg;} 
+        }
+        div:hover{
+            background-image: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
